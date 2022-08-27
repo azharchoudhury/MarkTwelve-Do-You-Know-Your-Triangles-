@@ -1,0 +1,11 @@
+.container{
+    text-align: center;
+}
+
+.angle-input{
+    margin: 1rem 0;
+}
+
+#output-text{
+    margin: 1rem;
+}

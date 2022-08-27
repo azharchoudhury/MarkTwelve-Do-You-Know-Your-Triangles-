@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+.quizForm{
+    text-align: center;
+}
+
+.question-container{
+    font-size: 1.25rem;
+    margin: 3rem;
+}
+
+#submit-button{
+    display: block;
+    margin: 1rem auto;
+    padding: 0.5rem;
+}
+
+#output-box{
+    text-align: center;
+    font-size: 3rem;
+}
