@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+
+h1{
+    margin: 3rem 0;
+}
+
+.formula{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+.inputs{
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+
+.triangle-side{
+    margin: 1rem;
+    text-align: center;
+}
+
+#output-div{
+    margin: 2rem;
+    font-weight: bold;
+    font-size: 2rem;
+    color: blue;
+}
