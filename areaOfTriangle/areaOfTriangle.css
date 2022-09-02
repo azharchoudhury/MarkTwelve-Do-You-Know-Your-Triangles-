@@ -1,28 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+}
+
+
+
+#navigation{
+    background: linear-gradient(160deg, #1f2937, #a1a1aa);
+    padding: 1rem 1rem;
+}
+
+
+#nav-header{
+    font-family: 'Yesteryear', cursive;
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    color: white;
+}
+
+
+#triangle-icon{
+    color: #fef08a;
+    padding-left: 0.45rem;
+}
+
+
+#non-bullet-list{
+    list-style: none;
+    color: white;
+}
+
+#nav-pills{
+    text-align: right;
+}
+
+.inline-list-items{
+    display: inline;
+    padding: 0.5rem;
+    font-size: 1.25rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
 body{
-    text-align: center;
+    background-image: url(../gifs/one.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
 }
 
 h1{
-    margin: 3rem 0;
+    margin: 0.5rem 0;
+    margin-bottom: 1.5rem;
 }
 
 .formula{
-    font-weight: bold;
+    font-family: 'Fredoka', sans-serif;
+    font-weight: 400;
     font-size: 1.25rem;
+    margin-bottom: 1rem;
 }
 .inputs{
-    padding: 1rem;
+    padding: 0.5rem;
     font-size: 1.5rem;
 }
 
 .triangle-side{
-    margin: 1rem;
     text-align: center;
+    font-weight: bold;
+    margin: 0 1rem;
+    width: 200px;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+#check-btn{
+    font-family: 'Fredoka', sans-serif;
+    display: block;
+    margin: 1rem auto 0.5rem;
+    font-size: 1rem;
+    padding: 0.75rem;
+    border-radius: 2rem;
+    border-color: grey;
+    color: #334155;
+    background-color: #e5e7eb;
 }
 
 #output-div{
-    margin: 2rem;
+    font-size: 1.75rem;
     font-weight: bold;
-    font-size: 2rem;
-    color: blue;
+    color: #ea580c;
+}
+
+#container-area{
+    text-align: center;
+    background: linear-gradient(110deg, #6b7280, #262626);
+    width: 60%;
+    padding: 1rem;
+    margin: 1.5rem auto;
+    border-radius: 2rem;
+    color: white;
+    font-family: 'Dancing Script', cursive;
 }

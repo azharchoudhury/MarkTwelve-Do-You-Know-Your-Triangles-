@@ -24,6 +24,13 @@ function calculateScore()
         index++;
     }
 
-    outputBox.innerText = "Your score is: " + score;
+
+    if(score === 5){
+        outputBox.innerText = "Your score is: " + score + ". Congratulations!! You answered all correct 😊";
+    }
+    else{
+
+        outputBox.innerText = "Your score is: " + score;
+    }
 }
 

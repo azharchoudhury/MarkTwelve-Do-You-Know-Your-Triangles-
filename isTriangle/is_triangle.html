@@ -8,19 +8,30 @@
     <link rel="stylesheet" href="/isTriangle/is_trianlge.css">
 </head>
 <body>
-    <div class="container">
-    <h1>Is It A Triangle? 🤔</h1>
-    <label for="angle1">Angle 1</label>
-    <input type="number" class="angle-input">
-    <br>
+    <nav id="navigation">
+        <a href="../index.html"><span id="nav-header">Fun With <span id="triangle-icon">◸</span>Triangles</span></a>
+        <ul id="non-bullet-list">
+            <div id="nav-pills">
+                <li class="inline-list-items"><a href="../index.html">Home</a></li>
+                <li class="inline-list-items"><a href="../isTriangle/is_triangle.html">Is Triangle?</a></li>
+                <li class="inline-list-items"><a href="../triangleQuiz/quiz.html">Quiz</a></li>
+                <li class="inline-list-items"><a href="../hypotenuseOfTriangle/hypotenuseOfTriangle.html">Hypotenuse</a>
+                </li>
+                <li class="inline-list-items"><a href="../areaOfTriangle/areaOfTriangle.html">Area of Triangle</a></li>
+            </div>
+        </ul>
+    </nav>
 
-    <label for="angle2">Angle 2</label>
-    <input type="number" class="angle-input">
-    <br>
+    <div id="container-is-triangle">
+    <p id="heading-text">Is It A Triangle? 🤔</p>
+    <label class = "input-label" for="angle1">Angle 1</label>
+    <input type="number" class="angle-input" min="1">
 
-    <label for="angle3">Angle 3</label>
-    <input type="number" class="angle-input">
-    <br>
+    <label class = "input-label" for="angle2">Angle 2</label>
+    <input type="number" class="angle-input" min="1">
+
+    <label class = "input-label" for="angle3">Angle 3</label>
+    <input type="number" class="angle-input" min="1">
 
     <button id="is-triangle-btn">Is Triangle?</button>
 

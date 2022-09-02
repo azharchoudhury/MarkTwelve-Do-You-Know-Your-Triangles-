@@ -6,6 +6,14 @@
     margin: 0;
 }
 
+body{
+    background-image: url(./gifs/one.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: hidden;
+}
 
 #navigation{
     background: linear-gradient(160deg, #1f2937, #a1a1aa);
@@ -47,64 +55,22 @@ a{
     color: white;
 }
 
-body{
-    background-image: url(../gifs/one.gif);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    overflow: hidden;
-}
-
-
-#container-is-triangle{
-    text-align: center;
+#container{
     background: linear-gradient(110deg, #6b7280, #262626);
-    width: 70%;
-    padding: 1rem;
-    padding-top: 0.5rem;
-    margin: 1.5rem auto ;
+    width: 60%;
+    padding: 3rem;
+    margin: 4rem 2rem ;
     border-radius: 2rem;
     color: white;
     font-family: 'Dancing Script', cursive;
 }
 
-#heading-text{
-    font-size: 2rem;
-    margin: 2rem;
+#para-1{
+    font-size: 1.5rem;
+    margin: 1.5rem;
 }
 
-.input-label{
-    display: block;
-    margin: 0.25rem auto;
-    font-size: 1.25rem;
+#para-2{
+    font-size: 1.5rem;
+    margin: 1.5rem;
 }
-
-.angle-input{
-    text-align: center;
-    font-weight: bold;
-    margin: 0 1rem;
-    width: 200px;
-    padding: 1rem;
-    border-radius: 0.5rem;
-}
-
-#is-triangle-btn{
-    font-family: 'Fredoka', sans-serif;
-    display: block;
-    margin: 1rem auto;
-    font-size: 1rem;
-    padding: 0.75rem;
-    border-radius: 2rem;
-    border-color: grey;
-    color: #334155;
-    background-color: #e5e7eb;
-}
-
-#output-text{
-    color: white;
-    margin: 1rem;
-    margin-bottom: 0rem;
-    font-size: 1.75rem;
-}
-

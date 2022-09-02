@@ -8,25 +8,44 @@
     <link rel="stylesheet" href="/areaOfTriangle/areaOfTriangle.css">
 </head>
 <body>
+
+    <nav id="navigation">
+        <a href="../index.html"><span id="nav-header">Fun With <span id="triangle-icon">◸</span>Triangles</span></a>
+        <ul id="non-bullet-list">
+            <div id="nav-pills">
+                <li class="inline-list-items"><a href="../index.html">Home</a></li>
+                <li class="inline-list-items"><a href="../isTriangle/is_triangle.html">Is Triangle?</a></li>
+                <li class="inline-list-items"><a href="../triangleQuiz/quiz.html">Quiz</a></li>
+                <li class="inline-list-items"><a href="../hypotenuseOfTriangle/hypotenuseOfTriangle.html">Hypotenuse</a>
+                </li>
+                <li class="inline-list-items"><a href="../areaOfTriangle/areaOfTriangle.html">Area of Triangle</a></li>
+            </div>
+        </ul>
+    </nav>
+
+
+    <div id="container-area">
     <h1>Calculate Area of a triangle</h1>
 
-    <p class="formula">Area of a triangle = 1/2(Base * Height)</p>
+    <h2>Area of a triangle</h2>
+    <p class="formula">1/2(Base * Height)</p>
 
     <div class="inputs">
         <label>Base (in cm)</label>
         <br>
-        <input type="number" class="triangle-side">
+        <input type="number" class="triangle-side" min="1">
     </div>
 
     <div class="inputs">
         <label>Height (in cm)</label>
         <br>
-        <input type="number" class="triangle-side">
+        <input type="number" class="triangle-side" min="1">
     </div>
 
     <button id="check-btn">Calculate Area</button>
 
     <div id="output-div"></div>
+    </div>
 
     <script src="/areaOfTriangle/areaOfTriangle.js"></script>
 

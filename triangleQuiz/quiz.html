@@ -10,7 +10,21 @@
 </head>
 
 <body>
+    <nav id="navigation">
+        <a href="../index.html"><span id="nav-header">Fun With <span id="triangle-icon">◸</span>Triangles</span></a>
+        <ul id="non-bullet-list">
+            <div id="nav-pills">
+                <li class="inline-list-items"><a href="../index.html">Home</a></li>
+                <li class="inline-list-items"><a href="../isTriangle/is_triangle.html">Is Triangle?</a></li>
+                <li class="inline-list-items"><a href="../triangleQuiz/quiz.html">Quiz</a></li>
+                <li class="inline-list-items"><a href="../hypotenuseOfTriangle/hypotenuseOfTriangle.html">Hypotenuse</a>
+                </li>
+                <li class="inline-list-items"><a href="../areaOfTriangle/areaOfTriangle.html">Area of Triangle</a></li>
+            </div>
+        </ul>
+    </nav>
 
+    <div id="container-quiz">
     <h1>Quiz on triangles</h1>
     <h2>For each correct answer, you will get 1 point</h2>
 
@@ -18,15 +32,15 @@
 
         <div class="question-container">
             <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
-            <label>
+            <label class="input-label">
                 <input type="radio" name="question1" value="45°">45°
             </label>
 
-            <label>
+            <label class="input-label">
                 <input type="radio" name="question1" value="90°">90°
             </label>
 
-            <label>
+            <label class="input-label">
                 <input type="radio" name="question1" value="60°">60°
             </label>
         </div>
@@ -34,11 +48,11 @@
 
         <div class="question-container">
             <p>A triangle can have </p>
-            <label>
+            <label class="input-label">
                 <input type="radio" name="question2" value="one right angle">one right angle
             </label>
 
-            <label>
+            <label class="input-label">
                 <input type="radio" name="question2" value="two right angles">two right angles
             </label>
         </div>
@@ -47,11 +61,11 @@
 
         <div class="question-container">
             <p>Which of the following can form a right angled triangle?</p>
-            <label>
+            <label class="input-label">
                 <input type="radio" name="question3" value="14, 15, 26">14, 15, 26
             </label>
 
-            <label>
+            <label class="input-label">
                 <input type="radio" name="question3" value="12, 16, 20">12, 16, 20
             </label>
         </div>
@@ -59,11 +73,11 @@
 
         <div class="question-container">
             <p>Which of the following triangles are always similar?</p>
-            <label>
+            <label class="input-label">
                 <input type="radio" name="question4" value="Equilateral triangle">Equilateral triangle
             </label>
 
-            <label>
+            <label class="input-label">
                 <input type="radio" name="question4" value="Isosceles triangle">Isosceles triangle
             </label>
         </div>
@@ -72,24 +86,27 @@
             <p>There is a right triangle PQR where: angle Q = 90°; angle P = angle R. What is the measure of angles P
                 and R?</p>
 
-            <label>
+            <label class="input-label">
                 <input type="radio" name="question5" value="85°">85°
             </label>
 
-            <label>
+            <label class="input-label">
                 <input type="radio" name="question5" value="65°">65°
             </label>
 
-            <label>
+            <label class="input-label">
                 <input type="radio" name="question5" value="45°">45°
             </label>
         </div>
 
     </form>
 
+    <div id="output-box"></div>
+    
     <button id="submit-button">Submit Answers</button>
 
-    <div id="output-box"></div>
+
+    </div>
     
     <script src="/triangleQuiz/quiz.js"></script>
 </body>

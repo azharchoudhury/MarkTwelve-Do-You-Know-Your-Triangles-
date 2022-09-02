@@ -36,33 +36,21 @@ function calculateAreaOfTriangle() {
     // RECTIFIED IT ---
 
 
-    if(triangleSideInput[0].value === "" || triangleSideInput[1].value === "")
-    {
-        outputDiv.innerText = "Please enter all the fields"
-    }
-    else
-    {
-        if(triangleSideInputZero === 0 || triangleSideInputOne === 0)
-        {
-            outputDiv.innerText = "Please enter valid input";
-        }
-        else if(triangleSideInputZero && triangleSideInputOne)
-        {
-            if(triangleSideInputZero<0 && triangleSideInputOne<0)
-            {
+    if (triangleSideInput[0].value === "" || triangleSideInput[1].value === "") {
+        outputDiv.innerText = "Please enter all the fields 😐"
+    } else {
+        if (triangleSideInputZero === 0 || triangleSideInputOne === 0) {
+            outputDiv.innerText = "Please enter valid input 😐";
+        } else if (triangleSideInputZero && triangleSideInputOne) {
+            if (triangleSideInputZero < 0 && triangleSideInputOne < 0) {
                 outputDiv.innerText = "The values of both the Base and the Height should be positive";
-            }
-            else if(triangleSideInputZero<0)
-            {
+            } else if (triangleSideInputZero < 0) {
                 outputDiv.innerText = "The value of Base should be positive";
-            }
-            else if(triangleSideInputOne<0)
-            {
+            } else if (triangleSideInputOne < 0) {
                 outputDiv.innerText = "The value of Height should be positive";
-            }
-            else
-            {
-                outputDiv.innerText = "The Area of the triangle is : " + area +("cm2");
+            } else {
+                outputDiv.style.color = "white";
+                outputDiv.innerText = "The Area of the triangle is : " + area + "square unit";
             }
         }
     }

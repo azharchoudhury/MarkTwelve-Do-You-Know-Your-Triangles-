@@ -1,9 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+}
+
+
 h1{
     text-align: center;
 }
 
 h2{
     text-align: center;
+}
+
+#navigation{
+    background: linear-gradient(160deg, #1f2937, #a1a1aa);
+    padding: 1rem 1rem;
+}
+
+
+#nav-header{
+    font-family: 'Yesteryear', cursive;
+    font-size: 2.5rem;
+    padding: 0.5rem;
+    color: white;
+}
+
+
+#triangle-icon{
+    color: #fef08a;
+    padding-left: 0.45rem;
+}
+
+
+#non-bullet-list{
+    list-style: none;
+    color: white;
+}
+
+#nav-pills{
+    text-align: right;
+}
+
+.inline-list-items{
+    display: inline;
+    padding: 0.5rem;
+    font-size: 1.25rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+body{
+    background-image: url(../gifs/one.gif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow: scroll;
+}
+
+#container-quiz{
+    background: linear-gradient(110deg, #6b7280, #262626);
+    width: 60%;
+    padding: 1rem;
+    margin: 1rem auto;
+    border-radius: 2rem;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+}
+
+.input-label{
+    margin: 1rem;
+}
+
+input{
+    margin-top: 1rem;
+    margin-right: 0.25rem;
 }
 
 .quizForm{
@@ -16,12 +93,20 @@ h2{
 }
 
 #submit-button{
+    font-family: 'Fredoka', sans-serif;
     display: block;
     margin: 1rem auto;
-    padding: 0.5rem;
+    font-size: 1rem;
+    padding: 0.75rem;
+    border-radius: 2rem;
+    border-color: grey;
+    color: #334155;
+    background-color: #e5e7eb;
 }
 
 #output-box{
     text-align: center;
-    font-size: 3rem;
+    margin: 1rem;
+    margin-bottom: 0rem;
+    font-size: 1.75rem;
 }

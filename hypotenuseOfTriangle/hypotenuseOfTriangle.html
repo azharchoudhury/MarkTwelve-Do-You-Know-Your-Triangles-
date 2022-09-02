@@ -8,21 +8,37 @@
     <link rel="stylesheet" href="/hypotenuseOfTriangle/hypotenuseOfTriangle.css">
 </head>
 <body>
+
+    <nav id="navigation">
+        <a href="../index.html"><span id="nav-header">Fun With <span id="triangle-icon">◸</span>Triangles</span></a>
+        <ul id="non-bullet-list">
+            <div id="nav-pills">
+                <li class="inline-list-items"><a href="../index.html">Home</a></li>
+                <li class="inline-list-items"><a href="../isTriangle/is_triangle.html">Is Triangle?</a></li>
+                <li class="inline-list-items"><a href="../triangleQuiz/quiz.html">Quiz</a></li>
+                <li class="inline-list-items"><a href="../hypotenuseOfTriangle/hypotenuseOfTriangle.html">Hypotenuse</a>
+                </li>
+                <li class="inline-list-items"><a href="../areaOfTriangle/areaOfTriangle.html">Area of Triangle</a></li>
+            </div>
+        </ul>
+    </nav>
+
+
+    <div id="container-hypotenuse">
     <h1>Calculate Hypotenuse of a triangle</h1>
     
-    <p style="font-size: 3rem; color:red">Reminder: Complete the validation</p>
     <!-- Inputs -->
 
     <div class="inputs">
     <label for="side-input">Enter base value (a) =<br></label>
-    <input type="number" class="side-input">
+    <input type="number" class="side-input" min="1">
     </div>
 
     <br>
 
     <div class="inputs">
     <label for="side-input">Enter height value (b) =<br></label>
-    <input type="number" class="side-input">
+    <input type="number" class="side-input" min="1">
     </div>
 
     <br>
@@ -40,6 +56,8 @@
 
     <!-- Output -->
     <div id="output-div"></div>
+
+    </div>
 
     <script src="/hypotenuseOfTriangle/hypotenuseOfTriangle.js"></script>
 </body>
