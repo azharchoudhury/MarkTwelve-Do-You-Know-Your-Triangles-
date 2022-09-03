@@ -36,10 +36,19 @@
     text-align: right;
 }
 
+
 .inline-list-items{
-    display: inline;
+    display: inline-block;
     padding: 0.5rem;
     font-size: 1.25rem;
+}
+
+.inline-list-items a:hover{    
+    background: #fff;
+    transition: .5s;
+    color: #022f69;
+    border-radius: 0.5rem;
+    padding: 1rem;
 }
 
 a{
